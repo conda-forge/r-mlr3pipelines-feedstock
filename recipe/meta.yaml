@@ -1,4 +1,4 @@
-{% set version = "0.3.6" %}
+{% set version = "0.3.6-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlr3pipelines_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlr3pipelines/mlr3pipelines_{{ version }}.tar.gz
-  sha256: b915ad2be3f43648a5b4bf5040d385871322a5f426688ed4f6a39cc2b0d3afc6
+  sha256: 8c9334924b3ec237422af26443491591cff63e62f3c861665db2e6098a4f6303
 
 build:
   merge_build_host: true  # [win]
