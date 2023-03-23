@@ -1,11 +1,11 @@
-About r-mlr3pipelines
-=====================
+About r-mlr3pipelines-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlr3pipelines-feedstock/blob/main/LICENSE.txt)
 
 Home: https://mlr3pipelines.mlr-org.com, https://github.com/mlr-org/mlr3pipelines
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlr3pipelines-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dataflow programming toolkit that enriches 'mlr3' with a diverse set of pipelining operators ('PipeOps') that can be composed into graphs. Operations exist for data preprocessing, model fitting, and ensemble learning. Graphs can themselves be treated as 'mlr3' 'Learners' and can therefore be resampled, benchmarked, and tuned.
 
