@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlr3pipelines_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlr3pipelines/mlr3pipelines_{{ version }}.tar.gz
-  sha256: a323f016c5b7846352ceb61a20db98cd9b92b0126c30e356ab320acdcf32c66f
+  sha256: dd53cb4353250554a13648325159cc68461579e330167d5bc24de29d6e4c0840
 
 build:
   number: 0
