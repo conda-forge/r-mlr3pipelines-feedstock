@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlr3pipelines_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlr3pipelines/mlr3pipelines_{{ version }}.tar.gz
-  sha256: 9c189d8341983df41e9ea33c63dd2b186fbeba51a07f2deca9992af6326fb1df
+  sha256: 2c95392ed996eec3f79b8bd62e687cf793bc98f511a2fe0c21150f2b5602c639
 
 build:
   number: 0
@@ -55,8 +55,8 @@ test:
 about:
   home: https://mlr3pipelines.mlr-org.com, https://github.com/mlr-org/mlr3pipelines
   license: LGPL-3.0-only
-  summary: Dataflow programming toolkit that enriches 'mlr3' with a diverse set of pipelining operators ('PipeOps') that can be composed into graphs. Operations exist for data preprocessing, model fitting, and ensemble learning. Graphs can themselves be treated as 'mlr3' 'Learners' and can therefore be resampled, benchmarked,
-    and tuned.
+  summary: Dataflow programming toolkit that enriches 'mlr3' with a diverse set of pipelining operators ('PipeOps') that can be composed into graphs. Operations exist for data preprocessing, model fitting, and ensemble learning. Graphs can themselves be treated as 'mlr3' 'Learners' and can therefore be resampled, 
+    benchmarked, and tuned.
   license_family: LGPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
